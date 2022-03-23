@@ -4,9 +4,9 @@
 
 ## Your Task
 
-Create a small application that provides a dashboard showing how many data sets each federal ministry has made available on GovData. States, municipalities and other institutions should be ignored.
+Create a small web application that provides a dashboard showing how many data sets each federal ministry has made available on GovData. States, municipalities and other institutions should be ignored.
 
-GovData provides two APIs. Use either the [CKAN Action API](https://www.govdata.de/ckan/api/3) ([documentation](https://docs.ckan.org/en/2.9/api/index.html#get-able-api-functions)) or the [SPARQL endpoint](https://www.govdata.de/web/guest/sparql-assistent) to solve this challenge. In `departments.json` you will find all federal ministries and their subordinated agencies that have published data on GovData.
+Use GovData's [CKAN Action API](https://www.govdata.de/ckan/api/3) ([documentation](https://docs.ckan.org/en/2.9/api/index.html#get-able-api-functions)) to solve this challenge. In `departments.json` you will find all federal ministries and their subordinated agencies that have published data on GovData.
 
 Use a non-proprietary tech stack of your choice and explain in a readme how to run your solution. Please email your solution as a zip file to [challenge@4germany.org](mailto:challenge@4germany.org). If you're using
 Git during building your application please make sure to include the Git history as well.
