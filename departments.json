@@ -1,150 +1,108 @@
 {
   "departments": [
     {
-      "name": "Auswärtiges Amt",
-      "abbr": "AA"
+      "name": "Auswärtiges Amt"
     },
     {
-      "name": "Bundesministerium der Justiz und für Verbraucherschutz",
-      "abbr": "BMJV",
+      "name": "Bundesministerium der Justiz",
       "subordinates": [
         {
-          "name": "Deutsches Patent- und Markenamt",
-          "abbr": "DPMA"
+          "name": "Deutsches Patent- und Markenamt"
         },
         {
-          "name": "Bundesamt für Justiz",
-          "abbr": "BfJ"
+          "name": "Bundesamt für Justiz"
         }
       ]
     },
     {
       "name": "Bundesministerium der Finanzen",
-      "abbr": "BMF",
       "subordinates": [
         {
-          "name": "Bundeszentralamt für Steuern",
-          "abbr": "BZSt"
+          "name": "Bundeszentralamt für Steuern"
         },
         {
-          "name": "Generalzolldirektion",
-          "abbr": "GZD"
+          "name": "Generalzolldirektion"
         },
         {
-          "name": "ITZ-Bund",
-          "abbr": "ITZ-Bund"
+          "name": "ITZ-Bund"
         }
       ]
     },
     {
-      "name": "Bundesministerium der Verteidigung",
-      "abbr": "BMVg"
+      "name": "Bundesministerium der Verteidigung"
     },
     {
       "name": "Bundesministerium des Innern",
-      "abbr": "BMI",
       "subordinates": [
         {
-          "name": "Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) im Bundesamt für Bauwesen und Raumordnung (BBR)",
-          "abbr": "BBSR"
+          "name": "Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) im Bundesamt für Bauwesen und Raumordnung (BBR)"
         },
         {
-          "name": "Bundesausgleichsamt",
-          "abbr": "BAA"
+          "name": "Bundesausgleichsamt"
         },
         {
-          "name": "Bundesverwaltungsamt",
-          "abbr": "BVA"
+          "name": "Bundesverwaltungsamt"
         },
         {
-          "name": "Statistisches Bundesamt",
-          "abbr": "StBA"
+          "name": "Statistisches Bundesamt"
         }
       ]
     },
     {
       "name": "Bundesministerium für Arbeit und Soziales",
-      "abbr": "BMAS",
       "subordinates": [
         {
-          "name": "Bundesanstalt für Arbeitsschutz und Arbeitsmedizin ",
-          "abbr": "BAuA"
-        },
-        {
-          "name": "Bundesamt für Soziale Sicherung",
-          "abbr": "BAS"
+          "name": "Bundesanstalt für Arbeitsschutz und Arbeitsmedizin "
         }
       ]
     },
     {
-      "name": "Bundesministerium für Bildung und Forschung",
-      "abbr": "BMBF"
+      "name": "Bundesministerium für Bildung und Forschung"
     },
     {
-      "name": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit",
-      "abbr": "BMU"
+      "name": "Bundesministerium für Familie, Senioren, Frauen und Jugend"
     },
     {
-      "name": "Bundesministerium für Familie, Senioren, Frauen und Jugend",
-      "abbr": "BMFSFJ"
-    },
-    {
-      "name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
-      "abbr": "BMZ"
+      "name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung"
     },
     {
       "name": "Bundesministerium für Wirtschaft und Energie",
-      "abbr": "BMWi",
       "subordinates": [
         {
-          "name": "Bundesamt für Wirtschaft und Ausfuhrkontrolle",
-          "abbr": "BAFA"
+          "name": "Bundesamt für Wirtschaft und Ausfuhrkontrolle"
         },
         {
-          "name": "Bundesanstalt für Materialforschung und -prüfung ",
-          "abbr": "BAM"
+          "name": "Bundesanstalt für Materialforschung und -prüfung "
         }
       ]
     },
     {
       "name": "Bundesministerium für Ernährung und Landwirtschaft",
-      "abbr": "BMEL",
       "subordinates": [
         {
-          "name": "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit",
-          "abbr": "BVL"
+          "name": "Bundesamt für Verbraucherschutz und Lebensmittelsicherheit"
         },
         {
-          "name": "Bundesanstalt für Landwirtschaft und Ernährung",
-          "abbr": "BLE"
+          "name": "Bundessortenamt"
         },
         {
-          "name": "Bundessortenamt",
-          "abbr": "BSA"
-        },
-        {
-          "name": "Max Rubner-Institut",
-          "abbr": "MRI"
+          "name": "Max Rubner-Institut"
         }
       ]
     },
     {
       "name": "Bundesministerium für Gesundheit",
-      "abbr": "BMG",
       "subordinates": [
         {
-          "name": "Bundesamt für Soziale Sicherung",
-          "abbr": "BAS"
+          "name": "Bundesamt für Soziale Sicherung"
         }
       ]
     },
     {
       "name": "Bundesministerium für Verkehr und digitale Infrastruktur",
-      "abbr": "BMVI",
       "subordinates": [
         {
-          "name": "mCLOUD",
-          "abbr": "mCLOUD"
+          "name": "mCLOUD"
         }
       ]
     }
