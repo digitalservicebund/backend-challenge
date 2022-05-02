@@ -8,8 +8,7 @@ Create a small web application that provides a dashboard showing how many data s
 
 Use GovData's [CKAN Action API](https://www.govdata.de/ckan/api/3) ([documentation](https://docs.ckan.org/en/2.9/api/index.html#get-able-api-functions)) to solve this challenge. In `departments.json` you will find all federal ministries and their subordinated agencies that have published data on GovData.
 
-Use a non-proprietary tech stack of your choice and explain in a readme how to run your solution. Please email your solution as a zip file to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). If you're using
-Git during building your application please make sure to include the Git history as well.
+Use a non-proprietary tech stack of your choice and explain in a readme how to run your solution. Please email your solution as a zip file to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). Please use version control (git is preferred) and make sure to include the repository history.
 
 ## Evaluation
 
@@ -20,7 +19,7 @@ Among other things, we pay attention to:
 - how you name variables/functions/classes/packages,
 - how you test your application and what kinds of tests you're writing,
 - how you document your application, including instructions to run the project,
-- how you write your git commit messages,
+- what your commits look like,
 - whether you know how to consume APIs efficiently,
 - what tooling you use,
 - overall consistency & attention to detail.
