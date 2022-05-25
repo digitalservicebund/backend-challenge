@@ -16,12 +16,11 @@ Please submit your solution at least 2-3 days before your technical interview. Y
 
 1. Hosted repository (preferred)
 
-Email a link to a GitHub/Bitbucket/GitLab/etc. repo to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). Make sure to make the repo private 3 days after the interview.
+Please email a link to a GitHub/Bitbucket/GitLab/etc. repo to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). Make sure to make the repo private 3 days after the interview.
 
+2. Email
 
-2. Email 
-
-You can also email your solution as a zip file to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). Make sure to include the commit history in your submission.
+Alternatively, you can email your solution as a zip file to [challenge@digitalservice.bund.de](mailto:challenge@digitalservice.bund.de). Make sure to include the commit history in your submission.
 
 ## Evaluation
 
