@@ -32,7 +32,7 @@
       "name": "Bundesministerium der Verteidigung"
     },
     {
-      "name": "Bundesministerium des Innern",
+      "name": "Bundesministerium des Innern und Heimat",
       "subordinates": [
         {
           "name": "Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) im Bundesamt für Bauwesen und Raumordnung (BBR)"
@@ -66,13 +66,13 @@
       "name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung"
     },
     {
-      "name": "Bundesministerium für Wirtschaft und Energie",
+      "name": "Bundesministerium für Wirtschaft und Klimaschutz",
       "subordinates": [
         {
           "name": "Bundesamt für Wirtschaft und Ausfuhrkontrolle"
         },
         {
-          "name": "Bundesanstalt für Materialforschung und -prüfung "
+          "name": "Bundesanstalt für Materialforschung und -prüfung (BAM)"
         }
       ]
     },
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "name": "Bundesministerium für Verkehr und digitale Infrastruktur",
+      "name": "Bundesministerium für Digitales und Verkehr",
       "subordinates": [
         {
           "name": "mCLOUD"
