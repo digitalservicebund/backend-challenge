@@ -24,7 +24,7 @@ Alternatively, you can email your solution as a zip file to [challenge@digitalse
 
 ## Evaluation
 
-We want to use this challenge to understand how you would approach such a problem in a work setting. Here are some specifics of what we are looking for:
+We want to use this challenge to understand how you would approach such a problem in a work setting.
 
 Among other things, we pay attention to:
 - how you structure your application and your source code,
