@@ -52,3 +52,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Backend
+/app/.mypy_cache/
+/app/.pytest_cache/
