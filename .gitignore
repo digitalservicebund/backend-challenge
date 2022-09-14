@@ -1,0 +1,56 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Python
+# virtualenv folder
+.virtualenv
+.venv
+.env
+bin/
+
+# build
+build
+dist
+
+*.egg-info/
+__pycache__
+# Unit test / coverage reports
+.coverage
+
+# Docker
+docker
+
+# Frontend
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend
+/app/.mypy_cache/
+/app/.pytest_cache/
