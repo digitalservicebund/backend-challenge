@@ -6,7 +6,7 @@ from app.services.department import _parse_department_names, _is_ministry_or_sub
 
 
 def test_department_names_parses() -> None:
-    with open(os.path.join(config.PARENT_DIR, config.DEPARTMENTS_JSON_FILENAME)) as f:
+    with open(os.path.join(config.PROJECT_DIR, config.DEPARTMENTS_JSON_FILENAME)) as f:
         departments = json.load(f).get('departments')
         department_names = [name for name in _parse_department_names(departments)]
         assert len(department_names) == 30
