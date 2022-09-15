@@ -1,4 +1,4 @@
-.PHONY: test mypy lint clean dev install dist run help
+.PHONY: test mypy lint clean dev install dist run run-docker backend-image help
 
 PYTHONPATH=$(${PWD%/*})
 
@@ -13,6 +13,8 @@ help:
 	@echo "  install       install without dev dependencies"
 	@echo "  dist          build dist packages"
 	@echo "  run           run server for development"
+	@echo "  run-docker    start Docker container"
+	@echo "  backend-image build Docker image for backend"
 	@echo "  help          print this message"
 	@echo
 
@@ -54,3 +56,9 @@ install: ensure-poetry clean
 run: ensure-poetry clean
 	export PYTHONPATH=$${PWD%/*}; \
 	poetry run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+backend-image:
+	docker build -t dsb-backend:0.1.0 . --no-cache
+
+run-docker:
+	docker run -p 8000:8000 --name dsb-backend dsb-backend
