@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ministry datasets</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title">
+            German ministries' uploaded datasets
+        </h1>
+        <p class="subtitle">
+            Each count represents the aggregated number of uploaded datasets by the ministry
+            and all its subordinate agencies.
+            <br>
+        </p>
+        <div class="content">
+            <table>
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Ministry name</th>
+                    <th># datasets</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in departments %}
+                <tr>
+                    <td>{{loop.index}}</td>
+                    <td>{{ item.name }}</td>
+                    <td>{{ item.package_count }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="block">
+            <div class="content">
+                <p><strong>Source:</strong> <a href="https://www.govdata.de/ckan/api/3"> GovData CKAN public API</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
