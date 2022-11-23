@@ -10,6 +10,19 @@ Use GovData's [CKAN Action API](https://www.govdata.de/ckan/api/3) ([documentati
 
 Use a non-proprietary tech stack of your choice and explain in a readme how to run your solution. Please use version control (git is preferred).
 
+### Language considerations
+
+As we take every submission seriously, we would like to ask you to submit your coding challenge in one of the following languages:
+
+- Java
+- Kotlin
+- Javascript
+- Typescript
+- Python
+- Ruby (on Rails)
+
+If you intend to solve the challenge in another language, please talk to us and see what we can do.
+
 ## Submitting your solution
 
 Please submit your solution at least 2-3 days before your technical interview. You have two options:
@@ -27,6 +40,7 @@ Alternatively, you can email your solution as a zip file to [challenge@digitalse
 We want to use this challenge to understand how you would approach such a problem in a work setting.
 
 Among other things, we pay attention to:
+
 - how you structure your application and your source code,
 - how you name variables/functions/classes/packages,
 - how you test your application and what kinds of tests you're writing,
