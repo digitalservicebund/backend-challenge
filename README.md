@@ -18,14 +18,12 @@ As we take every submission seriously, we would like to ask you to submit your c
 - Kotlin
 - Javascript
 - Typescript
-- Python
-- Ruby (on Rails)
 
 If you intend to solve the challenge in another language, please talk to us and see what we can do.
 
 ## Submitting your solution
 
-Please submit your solution at least 2-3 days before your technical interview. You have two options:
+You have two options for submitting your solution:
 
 1. Hosted repository (preferred)
 
